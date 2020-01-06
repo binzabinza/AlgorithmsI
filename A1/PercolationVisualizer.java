@@ -42,7 +42,7 @@ public class PercolationVisualizer {
                     StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
                     opened++;
                 }
-                else if (perc.isOpen(row - 1, col - 1)) {
+                else if (perc.isOpen(row, col)) {
                     StdDraw.setPenColor(StdDraw.WHITE);
                     opened++;
                 }
