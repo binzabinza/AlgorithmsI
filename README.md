@@ -1,1 +1,1 @@
-# AlgoirhtmsI
+# AlgorithmsI
