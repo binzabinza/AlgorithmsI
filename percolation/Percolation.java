@@ -18,6 +18,7 @@ public class Percolation {
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
         // create a grid where True == open and False == blocked
+        if (n <= 0 ) { throw new IllegalArgumentException(); }
         this.grid = new boolean[n][n];
         this.full = new boolean[n][n];
         for (int row = 0; row < n; row++) {
